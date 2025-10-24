@@ -1,0 +1,10 @@
+vcenter_server   = "vcenter1.example.com"
+vcenter_user     = "administrator@vsphere.local"
+vcenter_password = "SuperSecret!"
+datacenter_name  = "DC1"
+cluster_name     = "Cluster1"
+datastore_name   = "Datastore1"
+network_name     = "VM Network 1"
+template_name    = "ubuntu-22.04-template"
+gateway          = "10.1.0.1"
+dns_servers      = ["10.1.0.2", "10.1.0.3"]
